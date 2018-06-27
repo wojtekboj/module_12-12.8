@@ -971,4 +971,84 @@ header .main .call_button .icon_call_button:hover {
   transform: scale(1.1);
 }
 
+.footer {
+  background-color: #000;
+  padding-top: 20px;
+  height: 240px;
+}
+
+.footer p {
+  color: #7E7E7E;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.footer .social_footer .icon-btn {
+  background-color: #373737;
+  width: 35px;
+  height: 35px;
+  border: 0;
+  color: #FFFFFF;
+  border-radius: 50%;
+  margin: 3px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.footer .social_footer .icon-btn:hover {
+  transform: scale(1.1);
+  background-color: #B78B58;
+}
+
+.footer .social_footer .copyright {
+  padding-top: 130px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+}
+
+.footer .newsletter {
+  background-color: #383838;
+  height: 190px;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.footer .newsletter input {
+  text-align: center;
+  background-color: #383838;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #AEAEAE;
+  margin-top: 50px;
+  width: 250px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #9E9E9E;
+  padding-bottom: 10px;
+}
+
+.footer .newsletter .button {
+  border-radius: 25px;
+  width: 194px;
+  height: 45px;
+  text-align: center;
+  background-color: #B88B58;
+  border-color: #B88B58;
+  color: #FFF;
+  margin: 30px auto 0 auto;
+  cursor: pointer;
+  padding-top: 13px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer .newsletter .button:hover {
+  background-color: #000;
+}
+
 /*# sourceMappingURL=style.css.map */
