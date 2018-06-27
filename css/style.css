@@ -548,4 +548,91 @@ header .main .call_button .icon_call_button:hover {
   transform: scale(1.1);
 }
 
+.price {
+  background-color: #F7F7F7;
+  padding-bottom: 50px;
+}
+
+.price .price_header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.price .price_header h1 {
+  font-size: 30px;
+  color: #000;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.price .price_header p {
+  font-size: 15px;
+  color: #ADADAD;
+  margin-top: -20px;
+  font-weight: 600;
+}
+
+.price .price_content {
+  text-align: center;
+}
+
+.price .price_content .price_item {
+  background-color: #FFF;
+  border-radius: 5px;
+  margin: 0 15px 0 15px;
+  width: 245px;
+  padding-bottom: 20px;
+}
+
+.price .price_content .price_item ul {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.price .price_content .price_item li {
+  text-align: center;
+  color: #7E7E7E;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.price .price_content .price_item h1 {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.price .price_content .price_item .price_item_header {
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.price .price_content .price_item .price_item_month {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #AEAEAE;
+  margin-top: -30px;
+}
+
+.price .price_content .price_item .button {
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  background-color: #B88B58;
+  border-color: #B88B58;
+  color: #FFF;
+  margin: 0px auto;
+  cursor: pointer;
+  padding-top: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.price .price_content .price_item .button:hover {
+  background-color: #000;
+}
+
 /*# sourceMappingURL=style.css.map */

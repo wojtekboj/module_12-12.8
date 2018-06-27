@@ -552,3 +552,91 @@ header {
 }
 
 // End Section Clients Logos
+
+// Section Price
+.price {
+    background-color: #F7F7F7;
+    padding-bottom: 50px;
+
+    .price_header {
+        text-align: center;
+        text-transform: uppercase;
+        h1 {
+            font-size: 30px;
+            color: #000;
+            margin-top: 0;
+            padding-top: 30px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #ADADAD;
+            margin-top: -20px;
+            font-weight: 600;
+        }
+    }
+
+    .price_content {
+        text-align: center;
+
+        .price_item {
+            background-color: #FFF;
+            border-radius: 5px;
+            margin: 0 15px 0 15px;
+            width: 245px;
+            padding-bottom: 20px;
+
+            ul {
+                list-style-type: none;
+                margin-left: -40px;
+            }
+
+            li {
+                text-align: center;
+                color: #7E7E7E;
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+            h1 {
+                text-transform: uppercase;
+                font-size: 14px;
+                padding-top: 20px;
+            }
+
+            .price_item_header {
+                font-size: 35px;
+                font-weight: 700;
+                margin-top: 0;
+            }
+
+            .price_item_month {
+                font-size: 12px;
+                text-transform: uppercase;
+                color: #AEAEAE;
+                margin-top: -30px;
+            }
+
+            .button {
+                border-radius: 25px;
+                width: 150px;
+                height: 50px;
+                text-align: center;
+                background-color: #B88B58;
+                border-color: #B88B58;
+                color: #FFF;
+                margin: 0px auto;
+                cursor: pointer;
+                padding-top: 15px;
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: 600;
+                &:hover {
+                    background-color: #000;
+                }
+            }
+        }
+    }
+}
+
+// End Section Price
