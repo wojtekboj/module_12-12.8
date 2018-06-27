@@ -495,4 +495,57 @@ header .main .call_button .icon_call_button:hover {
   margin-top: 50px;
 }
 
+.clients {
+  background-color: #F7F7F7;
+  text-align: center;
+  padding-bottom: 46px;
+}
+
+.clients .clients_header {
+  text-transform: uppercase;
+}
+
+.clients .clients_header h1 {
+  font-size: 30px;
+  color: #000;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.clients .clients_header p {
+  font-size: 15px;
+  color: #ADADAD;
+  margin-top: -20px;
+  font-weight: 600;
+}
+
+.clients .client_content {
+  margin-top: 70px;
+  max-width: 700px;
+}
+
+.clients .client_content .quote {
+  color: #7D7D7D;
+  font-size: 30px;
+  background-color: #F7F7F7;
+  border: 0px;
+}
+
+.clients .pagination {
+  text-align: center;
+  margin-top: 54px;
+}
+
+.client_logos {
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid #D0D0D0;
+  border-bottom: 1px solid #D0D0D0;
+  cursor: pointer;
+}
+
+.client_logos img:hover {
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=style.css.map */

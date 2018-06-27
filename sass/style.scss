@@ -493,3 +493,62 @@ header {
 }
 
 // Section Our Team
+
+// Section Happy Clients
+.clients {
+    background-color: #F7F7F7;
+    text-align: center;
+    padding-bottom: 46px;
+
+    .clients_header {
+        text-transform: uppercase;
+        h1 {
+            font-size: 30px;
+            color: #000;
+            margin-top: 0;
+            padding-top: 30px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #ADADAD;
+            margin-top: -20px;
+            font-weight: 600;
+        }
+    }
+
+    .client_content {
+        margin-top: 70px;
+        max-width: 700px;
+
+        .quote {
+            color: #7D7D7D;
+            font-size: 30px;
+            background-color: #F7F7F7;
+            border: 0px;
+        }
+    }
+
+    .pagination {
+        text-align: center;
+        margin-top: 54px;
+    }
+}
+// Section Happy Clients
+
+// Section Clients Logos
+.client_logos {
+    text-align: center;
+    padding: 40px 0;
+    border-top: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+    cursor: pointer;
+
+    img {
+        &:hover {
+            transform: scale(1.10);
+        }
+    }
+}
+
+// End Section Clients Logos
