@@ -709,4 +709,145 @@ header .main .call_button .icon_call_button:hover {
   margin-top: 50px;
 }
 
+.facts {
+  background-color: #000;
+  min-height: 410px;
+  max-height: 100%;
+  text-align: center;
+}
+
+.facts .facts_header {
+  text-transform: uppercase;
+}
+
+.facts .facts_header h1 {
+  font-size: 30px;
+  color: #FFF;
+  padding-top: 30px;
+}
+
+.facts .facts_header p {
+  font-size: 15px;
+  color: #ADADAD;
+  margin-top: -20px;
+  font-weight: 600;
+}
+
+.facts .facts_content h1 {
+  color: #B88B58;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.facts .facts_content h1:hover {
+  transform: scale(1.1);
+}
+
+.facts .facts_content h2 {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 0 30px;
+}
+
+.facts .facts_content hr {
+  width: 20px;
+  margin-top: -30px;
+  border: 2px solid #7E7E7E;
+}
+
+.facts .facts_content p {
+  color: #7E7E7E;
+  font-size: 15px;
+  padding: 0 30px;
+}
+
+.social_counters {
+  border-bottom: 1px solid #D0D0D0;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social_counters .social_icon_share {
+  background-color: #FFF;
+  border: 0;
+  font-size: 30px;
+  color: #AEAEAE;
+}
+
+.social_counters .social_text {
+  color: #AEAEAE;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.social_counters .social_icon {
+  margin: 0 10px;
+  width: 35px;
+  height: 35px;
+  border: 0;
+  color: #FFF;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 30px;
+}
+
+.social_counters .social_icon:hover {
+  transform: scale(1.1);
+}
+
+.social_counters .social_icon_counter {
+  color: #AEAEAE;
+  font-size: 10px;
+  font-weight: 700;
+  margin-left: -25px;
+}
+
+.social_counters .twitter {
+  color: #4099FF;
+}
+
+.social_counters .twitter:hover {
+  background-color: #4099FF;
+  color: #FFF;
+}
+
+.social_counters .linkedin {
+  color: #117BB2;
+}
+
+.social_counters .linkedin:hover {
+  background-color: #117BB2;
+  color: #FFF;
+}
+
+.social_counters .facebook {
+  color: #3B5998;
+}
+
+.social_counters .facebook:hover {
+  background-color: #3B5998;
+  color: #FFF;
+}
+
+.social_counters .google-plus {
+  color: #DB5A3C;
+}
+
+.social_counters .google-plus:hover {
+  background-color: #DB5A3C;
+  color: #FFF;
+}
+
+.social_counters .pinterest {
+  color: #B61B29;
+}
+
+.social_counters .pinterest:hover {
+  background-color: #B61B29;
+  color: #FFF;
+}
+
 /*# sourceMappingURL=style.css.map */
