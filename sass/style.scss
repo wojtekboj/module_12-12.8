@@ -185,3 +185,52 @@ header {
 }
 
 // End Header
+
+// About Us
+.about {
+    .about_header {
+        text-align: center;
+        text-transform: uppercase;
+        h1 {
+            font-size: 30px;
+            color: #000;
+            margin-top: 60px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #ADADAD;
+            margin-top: -20px;
+            font-weight: 600;
+        }
+    }
+
+    .about_info p {
+        padding-top: 5px;
+    }
+
+    .about_info img {
+        width: 100%;
+        height: auto;
+    }
+
+    .button {
+        border-radius: 25px;
+        width: 195px;
+        height: 45px;
+        text-align: center;
+        background-color: #B88B58;
+        border-color: #B88B58;
+        color: #FFF;
+        margin-top: 60px;
+        cursor: pointer;
+        padding-top: 13px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        &:hover {
+            background-color: #000;
+        }
+    }
+}
+// End About Us
