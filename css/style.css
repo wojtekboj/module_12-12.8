@@ -919,4 +919,56 @@ header .main .call_button .icon_call_button:hover {
   background-color: #000;
 }
 
+.map {
+  background-image: url(../images/map.jpg);
+  background-repeat: no-repeat;
+  height: 415px;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+}
+
+.map .map_content {
+  background-color: #FFF;
+  padding: 45px 0 0 0;
+  margin-top: 35px;
+  max-width: 540px;
+  height: 340px;
+  border-radius: 5px;
+}
+
+.map .map_content p {
+  color: #7E7E7E;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.map .map_content .icon_map {
+  background-color: #ADADAD;
+  width: 35px;
+  height: 35px;
+  border: 0;
+  color: #FFFFFF;
+  border-radius: 50%;
+  font-size: 22px;
+  margin: 5px 0 0 40px;
+}
+
+.map .icon_up_button {
+  margin: 10px 0 0 30px;
+  width: 60px;
+  height: 60px;
+  border: 0;
+  background-color: #B78B57;
+  color: #FFF;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
+.map .icon_up_button:hover {
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=style.css.map */

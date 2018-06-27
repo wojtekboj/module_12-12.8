@@ -926,3 +926,57 @@ header {
 }
 
 // End Section Contact Us
+
+// Section Map
+.map {
+    background-image: url(../images/map.jpg);
+    background-repeat: no-repeat;
+    height: 415px;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+
+    .map_content {
+        background-color: #FFF;
+        padding: 45px 0 0 0;
+        margin-top: 35px;
+        max-width: 540px;
+        height: 340px;
+        border-radius: 5px;
+
+        p {
+            color: #7E7E7E;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .icon_map {
+            background-color: #ADADAD;
+            width: 35px;
+            height: 35px;
+            border: 0;
+            color: #FFFFFF;
+            border-radius: 50%;
+            font-size: 22px;
+            margin: 5px 0 0 40px;
+        }
+    }
+
+    .icon_up_button {
+        margin: 10px 0 0 30px;
+        width: 60px;
+        height: 60px;
+        border: 0;
+        background-color: #B78B57;
+        color: #FFF;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 25px;
+        padding-bottom: 5px;
+        &:hover {
+            transform: scale(1.10);
+        }
+    }
+}
+
+// End Section Map
