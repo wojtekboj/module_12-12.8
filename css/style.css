@@ -235,4 +235,65 @@ header .main .call_button .icon_call_button:hover {
   background-color: #000;
 }
 
+.services {
+  background-color: #000;
+  padding-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.services .services_header h1 {
+  font-size: 30px;
+  color: #FFF;
+  margin-top: 60px;
+  padding-top: 40px;
+}
+
+.services .services_header p {
+  font-size: 15px;
+  color: #ADADAD;
+  margin-top: -20px;
+  font-weight: 600;
+}
+
+.services .services_content {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.services .services_content h1 {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.services .services_content p {
+  color: #3F3F3F;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.services .services_content .icon_serv {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  font-size: 60px;
+  color: #B78B57;
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+.services .services_content .icon_serv:hover {
+  transform: scale(1.1);
+}
+
+.services .services_content .serv_item {
+  border-left: 2px solid #383838;
+  padding: 0 35px;
+}
+
+.services .services_content .serv_item_right {
+  border-right: 2px solid #383838;
+}
+
 /*# sourceMappingURL=style.css.map */
