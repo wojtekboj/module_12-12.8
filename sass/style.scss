@@ -640,3 +640,79 @@ header {
 }
 
 // End Section Price
+
+// Section Premium
+.premium {
+    border-top: 1px solid #D0D0D0;
+    padding-bottom: 30px;
+
+    .premium_header {
+        text-align: center;
+        text-transform: uppercase;
+        h1 {
+            font-size: 30px;
+            color: #000;
+            padding-top: 30px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #ADADAD;
+            margin-top: -20px;
+            font-weight: 600;
+        }
+    }
+
+    .premium_content {
+        h1 {
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        p {
+            color: #ADADAD;
+        }
+        .icon_premium {
+            background-color: #FFF;
+            border: 0;
+            font-size: 30px;
+            margin-top: 13px;
+            color: #B68A57;
+        }
+
+        .premium_box img {
+            width: 100%;
+            height: auto;
+        }
+
+        hr {
+            max-width: 100%;
+        }
+
+        .button {
+            border-radius: 25px;
+            width: 194px;
+            height: 45px;
+            text-align: center;
+            background-color: #B88B58;
+            border-color: #B88B58;
+            color: #FFF;
+            margin: 30px auto;
+            cursor: pointer;
+            padding-top: 13px;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 600;
+            &:hover {
+                background-color: #000;
+            }
+        }
+    }
+
+    .pagination {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+// End Section Premium

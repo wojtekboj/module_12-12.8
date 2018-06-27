@@ -635,4 +635,78 @@ header .main .call_button .icon_call_button:hover {
   background-color: #000;
 }
 
+.premium {
+  border-top: 1px solid #D0D0D0;
+  padding-bottom: 30px;
+}
+
+.premium .premium_header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.premium .premium_header h1 {
+  font-size: 30px;
+  color: #000;
+  padding-top: 30px;
+}
+
+.premium .premium_header p {
+  font-size: 15px;
+  color: #ADADAD;
+  margin-top: -20px;
+  font-weight: 600;
+}
+
+.premium .premium_content h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.premium .premium_content p {
+  color: #ADADAD;
+}
+
+.premium .premium_content .icon_premium {
+  background-color: #FFF;
+  border: 0;
+  font-size: 30px;
+  margin-top: 13px;
+  color: #B68A57;
+}
+
+.premium .premium_content .premium_box img {
+  width: 100%;
+  height: auto;
+}
+
+.premium .premium_content hr {
+  max-width: 100%;
+}
+
+.premium .premium_content .button {
+  border-radius: 25px;
+  width: 194px;
+  height: 45px;
+  text-align: center;
+  background-color: #B88B58;
+  border-color: #B88B58;
+  color: #FFF;
+  margin: 30px auto;
+  cursor: pointer;
+  padding-top: 13px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.premium .premium_content .button:hover {
+  background-color: #000;
+}
+
+.premium .pagination {
+  text-align: center;
+  margin-top: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
