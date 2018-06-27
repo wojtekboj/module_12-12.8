@@ -296,4 +296,115 @@ header .main .call_button .icon_call_button:hover {
   border-right: 2px solid #383838;
 }
 
+.projects .projects_header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.projects .projects_header h1 {
+  font-size: 30px;
+  color: #000;
+  margin-top: 60px;
+}
+
+.projects .projects_header p {
+  font-size: 15px;
+  color: #ADADAD;
+  margin-top: -20px;
+  font-weight: 600;
+}
+
+.projects .projects_navbar {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.projects .projects_navbar li {
+  display: inline-block;
+  border: 1px solid #CFCFCF;
+  background-color: #EDEDED;
+}
+
+.projects .projects_navbar li:hover {
+  border-bottom: 5px solid #B78B57;
+  margin-bottom: -5px;
+}
+
+.projects .projects_navbar .navbar_left {
+  border-radius: 40px 0 0 40px;
+  width: 120px;
+}
+
+.projects .projects_navbar .navbar_right {
+  border-radius: 0 40px 40px 0;
+  width: 120px;
+}
+
+.projects .projects_navbar a {
+  padding: 20px 10px;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+}
+
+.projects .img_item {
+  margin: 10px;
+  position: relative;
+  width: auto;
+  height: 100%;
+  display: block;
+}
+
+.projects .img_item:hover .layer {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.projects .img_item:hover .layer h1,
+.projects .img_item:hover .layer p {
+  opacity: 1;
+}
+
+.projects .img_item .layer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .8s;
+  color: #fff;
+  text-align: center;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.projects .img_item .layer h1,
+.projects .img_item .layer p {
+  position: relative;
+  opacity: 0;
+  transition: .8s;
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+.projects .button {
+  border-radius: 25px;
+  width: 195px;
+  height: 45px;
+  text-align: center;
+  background-color: #B88B58;
+  border-color: #B88B58;
+  color: #FFF;
+  margin: 40px auto;
+  cursor: pointer;
+  padding-top: 13px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.projects .button:hover {
+  background-color: #000;
+}
+
 /*# sourceMappingURL=style.css.map */
