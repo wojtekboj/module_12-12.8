@@ -850,4 +850,73 @@ header .main .call_button .icon_call_button:hover {
   color: #FFF;
 }
 
+.contact {
+  background-color: #F7F7F7;
+  padding-bottom: 50px;
+}
+
+.contact .contact_header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact .contact_header h1 {
+  font-size: 30px;
+  color: #000;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.contact .contact_header p {
+  font-size: 15px;
+  color: #ADADAD;
+  margin-top: -20px;
+  font-weight: 600;
+}
+
+.contact .contact_form {
+  margin-top: 60px;
+}
+
+.contact .contact_form input {
+  background-color: #F7F7F7;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #AEAEAE;
+  margin-top: 30px;
+  width: 250px;
+  font-size: 14px;
+  color: #9E9E9E;
+  padding-bottom: 10px;
+}
+
+.contact .contact_form .input_more {
+  width: 525px;
+}
+
+.contact .contact_form .input_message {
+  margin-top: 80px;
+}
+
+.contact .contact_form .button {
+  border-radius: 25px;
+  width: 194px;
+  height: 45px;
+  text-align: center;
+  background-color: #B88B58;
+  border-color: #B88B58;
+  color: #FFF;
+  margin: 40px auto;
+  cursor: pointer;
+  padding-top: 13px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.contact .contact_form .button:hover {
+  background-color: #000;
+}
+
 /*# sourceMappingURL=style.css.map */
