@@ -418,9 +418,8 @@ header {
     background-size: cover;
     background-position: top;
     text-align: center;
-
+    
     .team_header {
-        text-align: center;
         text-transform: uppercase;
         h1 {
             font-size: 30px;
@@ -439,6 +438,7 @@ header {
 
     .team_content {
         text-align: center;
+
         .team_item {
             border-radius: 5px;
             padding-top: 50px;
@@ -778,84 +778,91 @@ header {
     border-bottom: 1px solid #D0D0D0;
     text-align: center;
     padding: 20px 0;
+    padding-left: 45px;
 
-    .social_icon_share {
-        background-color: #FFF;
-        border: 0;
-        font-size: 30px;
-        color: #AEAEAE;
-    }
+    .social_text_content {
+        text-align: right;
 
-    .social_text {
-        color: #AEAEAE;
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 600;
-    }
+        .social_icon_share {
+            background-color: #FFF;
+            border: 0;
+            font-size: 30px;
+            color: #AEAEAE;
+        }
 
-    .social_icon {
-        margin: 0 10px;
-        width: 35px;
-        height: 35px;
-        border: 0;
-        color: #FFF;
-        border-radius: 50%;
-        cursor: pointer;
-        font-size: 20px;
-        margin: 0 30px;
-        &:hover {
-            transform: scale(1.10);
+        .social_text {
+            color: #AEAEAE;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 600;
         }
     }
+    .social_icon_content {
+        text-align: left;
 
-    .social_icon_counter {
-        color: #AEAEAE;
-        font-size: 10px;
-        font-weight: 700;
-        margin-left: -25px;
-    }
-
-    .twitter {
-        color: #4099FF;
-        &:hover {
-            background-color: #4099FF;
+        .social_icon {
+            margin: 0 10px;
+            width: 35px;
+            height: 35px;
+            border: 0;
             color: #FFF;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+            margin: 0 30px;
+            &:hover {
+                transform: scale(1.10);
+            }
         }
-    }
 
-    .linkedin {
-        color: #117BB2;
-        &:hover {
-            background-color: #117BB2;
-            color: #FFF;
+        .social_icon_counter {
+            color: #AEAEAE;
+            font-size: 10px;
+            font-weight: 700;
+            margin-left: -25px;
         }
-    }
 
-    .facebook {
-        color: #3B5998;
-        &:hover {
-            background-color: #3B5998;
-            color: #FFF;
+        .twitter {
+            color: #4099FF;
+            &:hover {
+                background-color: #4099FF;
+                color: #FFF;
+            }
         }
-    }
 
-    .google-plus {
-        color: #DB5A3C;
-        &:hover {
-            background-color: #DB5A3C;
-            color: #FFF;
+        .linkedin {
+            color: #117BB2;
+            &:hover {
+                background-color: #117BB2;
+                color: #FFF;
+            }
         }
-    }
 
-    .pinterest {
-        color: #B61B29;
-        &:hover {
-            background-color: #B61B29;
-            color: #FFF;
+        .facebook {
+            color: #3B5998;
+            &:hover {
+                background-color: #3B5998;
+                color: #FFF;
+            }
+        }
+
+        .google-plus {
+            color: #DB5A3C;
+            &:hover {
+                background-color: #DB5A3C;
+                color: #FFF;
+            }
+        }
+
+        .pinterest {
+            color: #B61B29;
+            &:hover {
+                background-color: #B61B29;
+                color: #FFF;
+            }
         }
     }
 }
-
 // End Section Social
 
 // Section Contact Us
@@ -1165,7 +1172,10 @@ header {
 
     .team {
         height: 100%;
-
+        
+        .team_content {
+            text-align: center;
+        }
         .pagination {
             display: none;
         }
@@ -1192,8 +1202,24 @@ header {
     }
 
     .premium {
+        .premium_content {
+            .icon_premium {
+                display: none;
+            }
+        }
         .pagination {
             display: none;
+        }
+    }
+    
+    .social_counters {
+        .social_text_content {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .social_icon_content {
+            text-align: center;
         }
     }
 
