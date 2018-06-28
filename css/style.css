@@ -1147,6 +1147,10 @@ header .main .call_button .icon_call_button:hover {
   .team .team_content {
     text-align: center;
   }
+  .team .team_content .team_item {
+    margin: 20px auto;
+    float: none;
+  }
   .team .pagination {
     display: none;
   }

@@ -438,7 +438,7 @@ header {
 
     .team_content {
         text-align: center;
-
+        
         .team_item {
             border-radius: 5px;
             padding-top: 50px;
@@ -1175,6 +1175,11 @@ header {
         
         .team_content {
             text-align: center;
+            
+            .team_item {
+                margin: 20px auto;
+                float: none;
+            }
         }
         .pagination {
             display: none;
